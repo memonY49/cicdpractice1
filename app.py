@@ -11,7 +11,7 @@ class Student(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI CI/CD is working now!"}
+    return {"message": "FastAPI CI/CD is working!"}
 
 
 @app.post("/result")
