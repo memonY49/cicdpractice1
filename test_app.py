@@ -9,7 +9,7 @@ def test_home():
 
     assert response.status_code == 200
     assert response.json() == {
-        "message": "FastAPI CI/CD is workingjbjhdcvsdjh!"
+        "message": "FastAPI CI/CD is working now!"
     }
 
 
